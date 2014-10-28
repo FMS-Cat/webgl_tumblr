@@ -117,7 +117,7 @@ function disp()
 	gl.uniformMatrix4fv(gl.getUniformLocation(prg,'uni_mat2'),false,uni_mat2);
 
 	var uni_mat3=m.identity(m.create());
-	m.translate(uni_mat3,[0,-7,0],uni_mat3);
+	m.translate(uni_mat3,[0,-6.5,0],uni_mat3);
 	m.scale(uni_mat3,[3,3,3],uni_mat3);
 	gl.uniformMatrix4fv(gl.getUniformLocation(prg,'uni_mat3'),false,uni_mat3);
 
